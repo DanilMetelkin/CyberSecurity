@@ -151,12 +151,13 @@ background-color: #db7c08f5;
 }
 
 .slider__column {
-
+    height: 100%;
 }
 
 .slider__column_one {
 width: 80%;
 align-self: start;
+
 }
 
 @media (min-width: 890px) {
