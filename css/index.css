@@ -55,7 +55,7 @@ flex: 1 1 auto;
 .intro__inside {
     margin-top: 164px;
     padding-bottom: 54px;
-/*     height: 73vh; */
+    /* height: 73vh; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +74,8 @@ flex: 1 1 auto;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
+    margin-bottom: 4.25rem; 
 }
 
 .slider__inside {
