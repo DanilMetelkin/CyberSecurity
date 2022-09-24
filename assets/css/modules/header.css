@@ -101,11 +101,12 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: -500%;
-    left: 0;
+    top: 0;
+    right: -100%;
     z-index: 1;
     backdrop-filter: blur(5px);
     background-color: rgba(0,0,0,0.1);
+    transition: all 0.30s linear 0s;
     }
 
     @media (min-width: 890px) {
@@ -118,8 +119,8 @@
     }
     
     .header__nav.active {
-    top: 0;
-    transition: all 0.40s linear 0s;
+    right: 0;
+    transition: all 0.35s linear 0s;
     overflow-y: scroll;
     }
     
@@ -187,5 +188,3 @@
     .header__list-link:visited {
         color: inherit;
     }
-    
-  
