@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salt Group | Cyber Security</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js" defer></script>
-    <script src="./js/slider.js" defer></script>
-    <script src="./js/counter.js" defer></script>
-    <script src="./js/popupVideo.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/slider.js" defer></script>
+    <script src="./assets/js/counter.js" defer></script>
+    <script src="./assets/js/popupVideo.js" defer></script>
+    <script src="./assets/js/smoothScroll.js" defer></script>
 </head>
 <body class="page-body">
     <div class="popup"></div>
@@ -17,7 +18,7 @@
 <div class="header">
     <div class="header__inside container">
         <div class="header__logo">
-            <img class="header__logo-image" src="./img/salt-logo.webp" alt="" class="header__logo">
+            <img class="header__logo-image" src="./assets/img/salt-logo.webp" alt="" class="header__logo">
         </div>
         <div class="header__burger">
             <span></span>
@@ -137,39 +138,39 @@
             </div>
             <div class="services__greed">
                 <div class="services__column">
-                    <img src="./img/device_auth.webp" alt="Oops" class="services__image">
+                    <img src="./assets/img/device_auth.webp" alt="Oops" class="services__image">
                     <h4 class="services__header">Device Authentication</h4>
                     <p class="services__text">Hardware-based device fingerprinting resilient to cloning, malware and device jailbreak/root. 
                         Hardware-level control over the displayed UI independent of the device operating system. Hardware-level data protection.
                     </p>
                 </div>
                 <div class="services__column">
-                    <img src="./img/user-authentication-retina.webp" alt="Oops" class="services__image">
+                    <img src="./assets/img/user-authentication-retina.webp" alt="Oops" class="services__image">
                     <h4 class="services__header">User Authentication</h4>
                     <p class="services__text">Verify the identity of users for access control with contemporary biometric connected 
                         MFA security tokens.
                     </p>
                 </div>
                 <div class="services__column">
-                    <img src="./img/transaction-icon-retina.webp" alt="Oops" class="services__image">
+                    <img src="./assets/img/transaction-icon-retina.webp" alt="Oops" class="services__image">
                     <h4 class="services__header">Transaction Authentication</h4>
                     <p class="services__text">High assurance out-of-band authentication of high impact transactions and instructions initiated through electronic service delivery channels. Audit trail of verification for non-repudiation. Fraud protection against man-in-the-middle and browser malware.
                     </p>
                 </div>
                 <div class="services__column">
-                    <img src="./img/contemporary-img-retina.webp" alt="Oops" class="services__image">
+                    <img src="./assets/img/contemporary-img-retina.webp" alt="Oops" class="services__image">
                     <h4 class="services__header">Contemporary
                         authentication methods</h4>
                     <p class="services__text">Echidna authentication server to enable adaptive risk-based approach to security through a range of methods for different levels of authentication assurance from SMS OTPs, Challenge/Response, to more contemporary QR code signing and advanced connected mobile security tokens capable of transaction signatures with dynamic linking of the transaction context and addition of PIN, Fingerprint and other biometrics.</p>
                 </div>
                 <div class="services__column">
-                    <img src="./img/HSM-icon.webp" alt="Oops" class="services__image">
+                    <img src="./assets/img/HSM-icon.webp" alt="Oops" class="services__image">
                     <h4 class="services__header">HSM Solutions</h4>
                     <p class="services__text">Reseller of Thales nShield HSMs with professional services and subject matter expertise in HSMs, key ceremony procedures, and SEE code development. 
                     </p>
                 </div>
                 <div class="services__column">
-                    <img src="./img/cloaud-img-retina.webp" alt="Oops" class="services__image">
+                    <img src="./assets/img/cloaud-img-retina.webp" alt="Oops" class="services__image">
                     <h4 class="services__header">Cloud & IoT Security</h4>
                     <p class="services__text">Secure the identity and access of users, devices and Internet of Things connecting into the cloud. Support cloud adoption and migration of applications and data into private and public clouds.</p>
                 </div>
@@ -185,7 +186,7 @@
             </div>
             <div class="rewiev__column rewiev__column_second">
                 <div class="rewiev__video">
-                    <video src="./video/Scorpions - Wind Of Change.webm" poster="./img/video.webp" class="rewiev__video_item"></video>
+                    <video src="./assets/video/Scorpions - Wind Of Change.webm" poster="./assets/img/video.webp" class="rewiev__video_item"></video>
                 </div>
             </div>
             <div class="rewiev__column rewiev__column_third">
@@ -206,26 +207,26 @@
                     <div class="form__row form__row_first">
                         <div class="form__column">
                             <h5 class="form__label">First Name</h5>
-                            <input type="text" class="form__input" placeholder="First Name">
+                            <input type="text" class="form__input" placeholder="First Name" required>
                         </div>
                         <div class="form__column">
                             <h5 class="form__label">Last Name</h5>
-                            <input type="text" class="form__input" placeholder="Last Name">
+                            <input type="text" class="form__input" placeholder="Last Name" required>
                         </div>
                     </div>
                     <div class="form__row">
                         <div class="form__column">
                             <h5 class="form__label">Email Address</h5>
-                            <input type="email" class="form__input" placeholder="Email Address">
+                            <input type="email" class="form__input" placeholder="Email Address" required>
                         </div>
                     </div>
                     <div class="form__row">
                         <div class="form__column">
                             <h5 class="form__label">Your message</h5>
-                            <textarea class="form__textarea" name="formTextarea" id="formTextarea" cols="30" rows="10" placeholder="Textarea"></textarea>
+                            <textarea class="form__textarea" name="formTextarea" id="formTextarea" cols="30" rows="10" placeholder="Textarea" required></textarea>
                         </div>
                     </div>
-                    <button class="form__button" type="button">SEND</button>
+                    <button class="form__button" type="submit">SEND</button>
                 </form>
             </div>
         </div>
@@ -280,7 +281,7 @@
             </div>
             <div class="footer__column">
                 <a href="./index.html" class="footer__logo">
-                    <img src="./img/footer.webp" alt="" class="footer__image">
+                    <img src="./assets/img/footer.webp" alt="" class="footer__image">
                 </a>
             </div>
         </div>
