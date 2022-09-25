@@ -27,12 +27,12 @@ box-shadow: 0 0 2px rgba(0,0,0,.2) inset;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #52f2dfa8, #29948783);
+    background: linear-gradient(to bottom, #ff8c009d, #b36c17c5);
     opacity: 25%;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #52F2DF, #299487);
+    background: linear-gradient(to bottom, #f39e37, #8f5a1a);
 }
 
 *,*:before, *:after{
